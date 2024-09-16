@@ -1,0 +1,32 @@
+* {
+  box-sizing: content-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+/* p {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid;
+} */
+.hone {
+  margin: 5px;
+  width: 300px;
+  height: 50px;
+  background-color: blueviolet;
+  padding: 4px;
+  border: 3px solid black;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+}
+/* .hone::first-letter {
+  color: red;
+  font-size: 50px;
+} */
+.hone:hover {
+  color: green;
+}
