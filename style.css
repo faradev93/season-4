@@ -1,32 +1,63 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
   margin: 0px;
 }
 
+/* h1 {
+   position: absolute; 
+  font-family: sans-serif;
+  background-color: rebeccapurple;
+  margin: 5px;
+  padding: 0px;
+  width: 300px;
+  height: 50px;
+  border: 2px rgba(0, 0, 0, 0.34) solid;
+} */
 /* p {
-  position: relative;
   width: 100px;
   height: 50px;
   padding: 20px;
-  border: 1px solid;
+  border: 1px dotted blue;
+  font-family: sans-serif;
 } */
-.hone {
-  margin: 5px;
+article p:first-of-type {
+  color: red;
+  font-size: 10px;
+}
+nav ul li {
+  list-style-type: none;
+}
+h1{
+  position: relative;
   width: 300px;
   height: 50px;
-  background-color: blueviolet;
-  padding: 4px;
-  border: 3px solid black;
-  box-sizing: border-box;
-  padding-bottom: 5px;
+  background-color: red;
+  border: solid 2px black;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 2px;
 }
-/* .hone::first-letter {
-  color: red;
-  font-size: 50px;
-} */
-.hone:hover {
-  color: green;
+p {
+  position: absolute;
+  background-color: greenyellow;
+  width: 50%;
+  top: 150px;
+  z-index: 2;
+  left: 50px;
+}
+.p2{
+  position: absolute;
+  background-color: rgba(54, 47, 255, 0.499);
+  width: 50%;
+  top: 100px;
+  z-index: 1;
+  left: 50px;
+}
+p:hover{
+  color: aqua;
+}
+.p2:hover{
+  color: yellow;
 }
