@@ -44,7 +44,7 @@ p {
   background-color: greenyellow;
   width: 50%;
   top: 150px;
-  z-index: 2;
+  z-index: 1;
   left: 50px;
 }
 .p2{
@@ -52,8 +52,10 @@ p {
   background-color: rgba(54, 47, 255, 0.499);
   width: 50%;
   top: 100px;
-  z-index: 1;
+  bottom: 100px;
+  z-index: 2;
   left: 50px;
+
 }
 p:hover{
   color: aqua;
